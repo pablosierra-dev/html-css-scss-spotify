@@ -1,0 +1,110 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+
+  &-content {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: space-between;
+    width: 1140px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: px;
+    margin-left: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    &-ppal {
+      display: flex;
+      justify-content: space-between;
+      gap: 130px;
+
+      .finallogo {
+        &-img {
+          width: 150px;
+        }
+      }
+
+      .finalul {
+        display: flex;
+        justify-content: start;
+        gap: 30px;
+        margin-top: 24px;
+
+        &-1 {
+          display: flex;
+          list-style: none;
+          gap: 25px;
+          flex-direction: column;
+          font-size: 15px;
+          width: 200px;
+          &-li {
+            color: white;
+          }
+          &-ti {
+            color: rgb(146, 146, 146);
+            font-size: 12px;
+            font-weight: bold;
+          }
+        }
+      }
+      .footericons {
+        display: flex;
+        gap: 30px;
+        margin-top: 20px;
+      }
+      .finalicons {
+        display: flex;
+        gap: 5px;
+        .finalicons-instagram {
+          width: 30px;
+        }
+      }
+      .firstbox {
+        display: flex;
+        gap: 50px;
+      }
+      .secondbox {
+        display: flex;
+        justify-content: end;
+      }
+    }
+    &-scdry {
+      display: flex;
+      justify-content: space-between;
+      .legal {
+        display: flex;
+        &-ul {
+          display: flex;
+          align-items: end;
+          list-style: none;
+          gap: 30px;
+          &-li {
+            color: rgb(161, 161, 161);
+            font-size: 11px;
+          }
+        }
+      }
+      .copy {
+        display: flex;
+        &-ul {
+          display: flex;
+          flex-direction: column;
+          align-items: end;
+          gap: 25px;
+          &-li {
+            color: rgb(162, 162, 162);
+            list-style: none;
+            font-size: 11px;
+          }
+        }
+      }
+    }
+  }
+}
